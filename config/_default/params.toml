@@ -15,7 +15,7 @@
 # toml-docs-start home
 [home]
     sections = ["blog"]
-    featurePhoto = "/img/mobo.jpg"
+    featurePhoto = "/img/me-homepage.jpg"
     fullCover = false
     centerHeadline = false
     style = ""
@@ -24,7 +24,7 @@
 # toml-docs-start navigation
 [navigation]
     anchor = true
-    logo = "/img/mobo.jpg"
+    logo = "/img/home-logo2.png"
     color = "body"
     fixed = true
     offset = "3.8em"
@@ -68,7 +68,7 @@
 # toml-docs-end sections
 
 [favicon]
-    logo = "img/mobo.jpg"
+    logo = "img/favicon.jpg"
     sizes = [16, 32, 48]
 
 # toml-docs-start theme-colors
@@ -93,24 +93,24 @@
 # toml-docs-end build
 
 [schema]
-    type = "Organization"
-    name = "Hinode"
+    type = "Persoanl"
+    name = "Liam"
     locale = "en-US"
-    # twitter = "https://twitter.com/gethinode"
+    # twitter = ""
     # linkedIn = ""
-    github = "https://github.com/gethinode/hinode"
+    github = "https://github.com/liamtill"
     section = "blog"
     [author]
-        name = "Mark Dumay"
-        # twitter = "https://twitter.com/markdumay"
-        linkedin = "https://www.linkedin.com/in/markdumay/"
-        github = "https://github.com/markdumay"
+        name = "Liam Till"
+        # twitter = ""
+        linkedin = "https://www.linkedin.com/in/liam-till-a2a406b3/"
+        github = "https://github.com/liamtill"
     [logo]
-        url = "img/logo512x512.png"
+        url = "img/favicon.jpg"
         width = 512
         height = 512
     [image]
-        url = "img/logo1280x640.png"
+        url = "/img/me-homepage.jpg"
         width = 1280
         height = 640
 
