@@ -1,0 +1,67 @@
+[[main]]
+  name = "About"
+  pageRef = "/about/"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  pageRef = "/blog/"
+  weight = 20
+
+# [[main]]
+#   name = "Projects"
+#   pageRef = "/projects/"
+#   weight = 30
+
+# [[main]]
+#   name = "Sample project"
+#   pageRef = "/projects/sample-project/"
+#   parent = "Projects"
+#   weight = 1
+
+# [[main]]
+#   name = "Another project"
+#   pageRef = "/projects/another-project/"
+#   parent = "Projects"
+#   weight = 2
+
+[[main]]
+  name = "Tags"
+  pageRef = "/tags/"
+  weight = 40
+
+[[social]]
+  name = "LinkedIn"
+  pre = "<i class=\"fab fa-linkedin fa-2x\"></i>"
+  url = "https://www.linkedin.com/in/liam-till-a2a406b3/"
+  weight = 10
+
+[[social]]
+  name = "GitHub"
+  pre = "<i class=\"fab fa-github fa-2x\"></i>"
+  url = "https://github.com/liamtill"
+  weight = 20
+
+# # toml-docs-start sample-navigation
+[[blog]]
+  name = "Blog"
+  pageRef = "/blog/"
+  weight = 10
+
+# [[sample]]
+#   name = "Projects"
+#   pageRef = "/projects/"
+#   weight = 20
+
+# [[sample]]
+#   name = "Sample project"
+#   pageRef = "/projects/sample-project/"
+#   parent = "Projects"
+#   weight = 1
+
+# [[sample]]
+#   name = "Another project"
+#   pageRef = "/projects/another-project/"
+#   parent = "Projects"
+#   weight = 2
+# toml-docs-end sample-navigation

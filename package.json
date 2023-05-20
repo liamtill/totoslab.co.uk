@@ -1,0 +1,78 @@
+{
+  "name": "@gethinode/hinode",
+  "version": "0.14.0",
+  "description": "Hinode is a clean documentation and blog theme for Hugo, an open-source static site generator",
+  "keywords": [
+    "hugo",
+    "theme",
+    "bootstrap",
+    "responsive",
+    "front-end",
+    "blog"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "prestart": "npm run clean",
+    "start": "hugo server --bind=0.0.0.0 --disableFastRender",
+    "start:prod": "hugo server --bind=0.0.0.0 --disableFastRender -e production",
+    "prebuild": "npm run clean",
+    "build": "hugo --gc --minify",
+    "build:debug": "hugo -e debug --debug",
+    "build:preview": "npm run build -D -F",
+    "clean": "rimraf public resources",
+    "clean:install": "rimraf package-lock.json node_modules",
+    "lint": "npm run -s lint:scripts && npm run -s lint:styles && npm run -s lint:markdown",
+    "lint:scripts": "eslint assets/js",
+    "lint:styles": "stylelint \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
+    "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
+    "lint:markdown-fix": "markdownlint-cli2-fix \"*.md\" \"content/**/*.md\"",
+    "test": "npm run -s lint",
+    "env": "hugo env",
+    "precheck": "npm version",
+    "check": "hugo version",
+    "copy:fonts": "shx cp ./node_modules/@fortawesome/fontawesome-free/webfonts/* ./static/fonts/",
+    "create:syntax-light": "hugo gen chromastyles --style=github > ./assets/scss/components/_syntax-light.scss",
+    "create:syntax-dark": "hugo gen chromastyles --style=github-dark > ./assets/scss/components/_syntax-dark.scss",
+    "create:syntax": "npm run -s create:syntax-light & npm run -s create:syntax-dark",
+    "upgrade": "npx npm-check-updates -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gethinode/hinode.git"
+  },
+  "author": "Mark Dumay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gethinode/hinode/issues"
+  },
+  "homepage": "https://gethinode.com",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0-alpha3",
+    "cssnano": "^6.0.0",
+    "cssnano-preset-advanced": "^6.0.0",
+    "eslint": "^8.39.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "flexsearch": "^0.7.31",
+    "hugo-bin": "^0.102.0",
+    "markdownlint-cli2": "^0.7.0",
+    "postcss-cli": "^10.1.0",
+    "purgecss-whitelister": "^2.4.0",
+    "rimraf": "^5.0.0",
+    "shx": "^0.3.4",
+    "stylelint": "^15.6.0",
+    "stylelint-config-standard-scss": "^9.0.0"
+  },
+  "hugo-bin": {
+    "buildTags": "extended"
+  }
+}

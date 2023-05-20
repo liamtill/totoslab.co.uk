@@ -1,0 +1,17 @@
+# toml-docs-start lang-main
+[en]
+    languageName = "English"
+    contentDir = "content"
+    weight = 1
+# toml-docs-end lang-main
+# toml-docs-start lang-param
+    [en.params.head]
+        tagline = "totoslab.co.uk"
+    [en.params.feature]
+        link = "about"
+        caption = "About"
+    [en.params.footer]
+        license = "Powered by <a href='https://gohugo.io' class='link-primary' target='_blank' rel='noopener noreferrer'>Hugo</a> and <a href='https://gethinode.com' class='link-primary' target='_blank' rel='noopener noreferrer'>Hinode</a>"
+        socialTitle = "Follow me"
+        socialCaption = "I work on coding and personal stock market projects"
+# toml-docs-end lang-param

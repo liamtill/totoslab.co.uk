@@ -1,0 +1,12 @@
+{{- define "main" -}}
+    {{- partial "assets/section-list.html" (dict 
+        "page" .
+        "section" .Type
+        "home" false
+        "nested" .Params.Nested
+        "title" .Title
+        "description" .Description
+        "content" .Content
+        "paginate" true)
+    -}}
+{{- end -}}
