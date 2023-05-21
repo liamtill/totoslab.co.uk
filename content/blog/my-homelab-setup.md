@@ -4,7 +4,7 @@ title: "My Homelab Setup"
 date: 2023-05-21
 description: "Homelab hardware and services setup"
 tags: ["homelab", "system", "services", "hardware", "proxmox", "docker", "raspberry pi"]
-thumbnail: /img/lab_photos/Homelab_Featured.jpg
+thumbnail: img/lab_photos/Homelab_Featured.jpg
 ---
 
 
@@ -45,13 +45,13 @@ I run [Proxmox](https://www.proxmox.com/en/) on this machine (`nimbus`) as my hy
 
 {{< image src="/img/lab_photos/rpis.jpg" ratio="21x9" class="rounded" >}}
 
-These are the OG Pi's that are now mounted on my pegboard that used to be a stacked cluster. Only 1 (left; `cumulus`) is in use at the moment and runs [Tailscale](https://tailscale.com/) so I can VPN back to my network. These Pi's were running some docker containers, which are now moved to a VM in Proxmox. I plan to run monitoring on the middle Pi (`stratus`) using [UptimeKuma](https://github.com/louislam/uptime-kuma) and the 3rd Pi (right; `cirrus`) is looking for a project 😉 at the moment. 
+These are the OG Pi's that are now mounted on my pegboard that used to be a stacked cluster. Only 1 (left; `cumulus`) is in use at the moment and runs [Tailscale](https://tailscale.com/) so I can VPN back to my network. These Pi's were running some docker containers, which are now moved to a VM in Proxmox. I plan to run monitoring on the middle Pi (`stratus`) using [UptimeKuma](https://github.com/louislam/uptime-kuma) and the 3rd Pi (right; `cirrus`) is looking for a project 😉 at the moment.
 
 ### Janky laptop 💻  `#labgore`
 
 <img src="/img/lab_photos/laptop-switch-pegboard.jpg" width=300 title="Janky laptop and Netgear Switch" class="rounded float-end" />
 
-This horrific dismantling of my old laptop (`tropo`) has had a long life and was used for my PhD. It was a rather clunky case and I decided to get a new smaller laptop. This meant that I needed to find a use for it! 
+This horrific dismantling of my old laptop (`tropo`) has had a long life and was used for my PhD. It was a rather clunky case and I decided to get a new smaller laptop. This meant that I needed to find a use for it!
 
 I didn't want to have it sitting around in the case and I didn't want to get rid of it as it's now sentimental after everything we've been through. So I took it apart to use the motherboard only and was hosting docker containers and media services before I got my main machine (`nimbus`) and the 10TB drive. I planned on using the screen as a Grafana dashboard but never did so re-mounted the board to an acryllic sheet on another pegboard under my desk.
 
@@ -81,21 +81,21 @@ The screenshot above shows my current work in progress. I run
 - Custom python script for downloading stock data
 - [Proxmox Backup Server (PBS)](https://www.proxmox.com/en/proxmox-backup-server) as a VM to take backups to the external drive
 - docker - a VM to run docker containers
-    * Traefik - reverse proxy serving local network with SSL
-    * BookStack - Wiki docs
-    * paperless-ngx - to digitise documents and use optical character recognition
-    * Adminer - MySQL database management
-    * PgAdmin - PostgreSQL database management
-    * Portainer - Docker container management
-    * Syncthing - sync client/server
-    * Watchtower - MOnitor docker containers for updates
+  - Traefik - reverse proxy serving local network with SSL
+  - BookStack - Wiki docs
+  - paperless-ngx - to digitise documents and use optical character recognition
+  - Adminer - MySQL database management
+  - PgAdmin - PostgreSQL database management
+  - Portainer - Docker container management
+  - Syncthing - sync client/server
+  - Watchtower - MOnitor docker containers for updates
 - media - dedicated VM for media services (*arrs)
-    * Jellyfin - media server/player
-    * Radarr - Movie collection manager
-    * Sonarr - Series collection manager
-    * nzbget - `nzb` downloader
-    * Readarr - 2 instances for audiobooks and ebooks
-    * Prowlarr - Usenet indexer manager
+  - Jellyfin - media server/player
+  - Radarr - Movie collection manager
+  - Sonarr - Series collection manager
+  - nzbget - `nzb` downloader
+  - Readarr - 2 instances for audiobooks and ebooks
+  - Prowlarr - Usenet indexer manager
 - totoscrafts - My wife's craft blog
 - [Tailscale](https://tailscale.com/) for VPN
 - All of my OSes are Ubuntu Server 20.04 or 22.04.
@@ -106,7 +106,7 @@ There are also some machine templates I use to create VMs and containers, plus s
 
 If you're unsure what the point is of having a homelab, heres my input. I find it very useful as it allows me to host my own services, which many people enjoy doing and you can head over to [r/selfhosted](https://www.reddit.com/r/selfhosted/) and [r/homelab](https://www.reddit.com/r/homelab/) for more info. This can range from media players/services to many different docker containers for all different types of software/services from monitoring, finance management, project management, software development and coding, web servers, databases, your own cloud drive, ad blocking, wiki documentation, smart home software... the list goes on and on. Take a look at [Docker Hub](https://hub.docker.com) and [linuxserver.io](https://docs.linuxserver.io/) for more info on the docker containers you can easily run on almost any machine.
 
-Apart from being able to run a million docker containers and many applications to serve almost any need you have, homelabs are great learning environments. They are fantastic to learn/develop new skills your interested in, to further your career skillset or to replicate enterprise services you use daily. They provide a platform where you can mess with things at your own will. If it goes wrong you can just delete it all and start again. Homelabs are very useful developement and learning environments. 
+Apart from being able to run a million docker containers and many applications to serve almost any need you have, homelabs are great learning environments. They are fantastic to learn/develop new skills your interested in, to further your career skillset or to replicate enterprise services you use daily. They provide a platform where you can mess with things at your own will. If it goes wrong you can just delete it all and start again. Homelabs are very useful developement and learning environments.
 
 If you want more info, take a look at [r/homelab](https://www.reddit.com/r/homelab). Be careful though, you may end up spending more money than you want to on servers and TB's of storage!
 
@@ -123,7 +123,7 @@ My future plans are to
 - Learn CI/CD along with Kubernetes so I can go from development to integration and deployment of a personal project application
 - Keep blogging about my progress and skills I learn
 
-My ultimate goals are to 
+My ultimate goals are to
 
 - Be able to deploy my homelab into a Kubernetes cluster with minimal manual input and have the lab fully managed via CI/CD flow
 - Be able to deploy an application I've developed into a Kubernetes cluster and use CI/CD

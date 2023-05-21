@@ -26,23 +26,23 @@ This blog and some of my homelab is named after our dog Toto. After all he is th
 
 ### What's this blog about
 
-I started this site to blog about my homelab, projects and new skills I learn along the way. I've read and used many many blogs over the years which have helped me learn new things, get systems/applications setup and helped with bug fixing. So, I thought it would be a good idea for me to start a blog to post about things I've learnt and will be learning. This blog will 
+I started this site to blog about my homelab, projects and new skills I learn along the way. I've read and used many many blogs over the years which have helped me learn new things, get systems/applications setup and helped with bug fixing. So, I thought it would be a good idea for me to start a blog to post about things I've learnt and will be learning. This blog will
 
 1. Serve as documentation for me so anything I do can be documented and I don't have to dig around again to figure out how to do what I already did:heavy_exclamation_mark:
 2. Hopefully help you 🫵 and you'll find my posts useful.
 
-I hope to be able to provide _some_ useful content for others interested in homelabbing and to journal my progress in learning more about DevOps.
+I hope to be able to provide *some* useful content for others interested in homelabbing and to journal my progress in learning more about DevOps.
 
 ### Interests
 
-Some of my interests include 
+Some of my interests include
 
- - Homelabbing!
- - Coding in Python :snake:
- - Learning new tech skills
- - Long walks with my wife and our doggy Toto
- - Cooking 🍗🧄 with my wife and especially eating 😋
- - Researching stocks and following the stock market
- - Drinking coffee:heavy_exclamation_mark: :coffee:
+- Homelabbing!
+- Coding in Python :snake:
+- Learning new tech skills
+- Long walks with my wife and our doggy Toto
+- Cooking 🍗🧄 with my wife and especially eating 😋
+- Researching stocks and following the stock market
+- Drinking coffee:heavy_exclamation_mark: :coffee:
 
 Learn more and contribute on [GitHub](https://github.com/liamtill).
