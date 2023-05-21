@@ -68,7 +68,7 @@
 # toml-docs-end sections
 
 [favicon]
-    logo = "img/favicon.jpg"
+    logo = "img/favicon.png"
     sizes = [16, 32, 48]
 
 # toml-docs-start theme-colors
