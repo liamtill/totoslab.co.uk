@@ -269,7 +269,7 @@ Alternatively, you can create a file with your secrets in and encrypt this exist
 
 ## Conclusion
 
-Ansible is a powerful and versatile IT automation tool that can help streamline your software engineering projects and improve overall efficiency. By leveraging its key features, such as playbooks, roles, and modules, you can simplify complex tasks, enhance collaboration, and ensure consistent, high-quality deployments. If you're looking to automate your infrastructure and application management, Ansible is an excellent choice to consider. You can already see from even the basic examples I've given here, and I'll cover how I have automated the deployment of my homelab in a future post, that utilising tools such as Ansible greatly increases efficiency and reduces errors. 
+Ansible is a powerful and versatile IT automation tool that can help streamline your software engineering projects and improve overall efficiency. By leveraging its key features, such as playbooks, roles, and modules, you can simplify complex tasks, enhance collaboration, and ensure consistent, high-quality deployments. If you're looking to automate your infrastructure and application management, Ansible is an excellent choice to consider. You can already see from even the basic examples I've given here, and I'll cover how I have automated the deployment of my homelab in a future post, that utilising tools such as Ansible greatly increases efficiency and reduces errors.
 
 ## Resources and More Info
 

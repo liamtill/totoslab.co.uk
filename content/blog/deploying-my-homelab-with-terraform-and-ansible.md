@@ -103,7 +103,7 @@ Below is an example of the Terraform plan I use to deploy a docker VM in Proxmox
 
 One alternative to this is something called "Golden Images". This is where you might create a "Golden" VM image which already has a bunch of software and configuration done, for example having Docker or nginx or some other service installed. However, I like the approach of using a bare image that I can clone many times and then use Ansible to install and configure the software I require.
 
-### Example of Ansible playbook for my docker VM
+### Example Ansible playbook for my docker VM
 
 Below is the Ansible playbook that I run against the docker VM provisioned with the Terraform plan above. I've used used _variables_, _roles_ and _templating_ where possible to make the playbook flexible.
 
