@@ -3,7 +3,7 @@ author: Liam
 title: "Deploying and configuring my homelab with Ansible and Terraform"
 date: 2023-06-18
 description: "A review of how I've used Ansible and Terraform to deploy and configure my homelab"
-tags: ["homelab", "ansible", "configuration", "iac", "automation", "deployment", "provisioning", "infrastructure"]
+tags: ["homelab", "ansible", "terraform", "configuration", "iac", "automation", "deployment", "provisioning", "infrastructure"]
 thumbnail: img/server-cartoon.jpeg
 ---
 
